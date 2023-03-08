@@ -1,0 +1,45 @@
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+user agent stylesheet
+ul {
+  list-style-type: disc;
+}
+.card {
+  background-color: #fff8c0;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 763px;
+  margin: 20px 0px;
+  text-align: center;
+  border-radius: 10;
+}
+body {
+  background: #FCE22A;
+  color: #20262E;
+  /* font-family: 'Helvetica', serif; */
+  font-family: 'Helvetica';
+  font-size: 20px;
+  font-weight: lighter;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
